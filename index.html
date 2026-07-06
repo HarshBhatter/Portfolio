@@ -415,104 +415,118 @@
    
 
     <section class="ftco-section" id="project-section">
-      <div class="container">
+    <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <!-- <h1 class="big big-2">Projects</h1> -->
-            <h2 class="mb-4">Projects</h2>
-            <!-- <p>Below are the sample Data Analytics projects on SQL, Python, Power BI & ML.</p> -->
-          </div>
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h2 class="mb-4">Projects</h2>
+            </div>
         </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry" style="text-align: center;">
-              <a href="https://ecomm-by-harshbhatter.netlify.app/" class="block-20 zoom-effect" style="background-image: url('images/EcoMM\ image.png');">
-              </a>
-              <h3 style="text-align: center;" class="heading"><a href="https://ecomm-by-harshbhatter.netlify.app/">E-commerce Webapp</a></h3>
 
-              <div class="text mt-3 float-right d-block">
+        <!-- ===================== EcoMM ===================== -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-11">
+                <div class="row align-items-center">
 
-                <p> Built a full-stack e-commerce platform featuring product catalogue, cart management, order summary, order
-management, Google OAuth2 login, JWT authentication, and Razorpay payment integration.
-				<p>•   Implemented a concurrency-safe inventory reservation workflow using locking to prevent overselling during
-simultaneous checkouts; validated through concurrent load testing with Apache JMeter.</p>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <a href="https://ecomm-by-harshbhatter.netlify.app/"
+                           class="block-20 zoom-effect"
+                           style="background-image: url('images/EcoMM image.png'); height:280px; border-radius:10px;">
+                        </a>
+                    </div>
 
-				<p>•  Designed extensible coupon and notification modules, enabling new coupon types, discount rules, and notification
-channels to be added with minimal code changes; implemented email notifications for order events via JavaMail.</p>
-				<p>• Reduced product catalogue API average latency from 3.4s to 51ms by replacing heavy entity responses with
-lightweight DTOs and dedicated image endpoints; validated under concurrent load using Apache JMeter.</p>
-				
- <p>• Deployed backend on Render and frontend on Netlify, handling HTTPS, CORS, and environment-specific
-configurations.</p>
-              </div>
+                    <div class="col-md-8">
+                        <h3 class="heading">
+                            <a href="https://ecomm-by-harshbhatter.netlify.app/">
+                                EcoMM - E-commerce Web Application
+                            </a>
+                        </h3>
+
+                        <div class="text mt-3">
+
+                            <p>
+                                • Built a full-stack e-commerce platform featuring product catalogue,
+                                cart management, order summary, order management,
+                                Google OAuth2 login, JWT authentication,
+                                and Razorpay payment integration.
+                            </p>
+
+                            <p>
+                                • Implemented a concurrency-safe inventory reservation workflow using
+                                optimistic locking to prevent overselling during simultaneous checkouts;
+                                validated through concurrent load testing using Apache JMeter.
+                            </p>
+
+                            <p>
+                                • Designed extensible coupon and notification modules, enabling new coupon
+                                types, discount rules, and notification channels with minimal code changes;
+                                implemented email notifications using JavaMail.
+                            </p>
+
+                            <p>
+                                • Reduced product catalogue API average latency from 3.4s to 51ms by
+                                replacing heavy entity responses with lightweight DTOs and dedicated image
+                                endpoints.
+                            </p>
+
+                            <p>
+                                • Deployed the backend on Render and frontend on Netlify, handling HTTPS,
+                                CORS, and environment-specific configurations.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
-          </div>
-		  <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry" style="text-align: center;">
-              <a href="https://harshbhatter.github.io/whiteboard/" class="block-20 zoom-effect" style="background-image: url('images/Gemini_Generated_Image_mwc0homwc0homwc0.png');">
-              </a>
-              <h3 style="text-align: center;" class="heading"><a href="https://harshbhatter.github.io/whiteboard/">Whiteboard</a></h3>
-
-              <div class="text mt-3 float-right d-block">
-
-                <p> Designed, built, and tested a fully functional whiteboard application with pencil, eraser, sticky notes, image insertion,
- and board download features.
- <p>• Implemented undo-redo feature using arrays as stack by storing positions.</p>
- • Gained hands-on experience in DOM manipulation , canvas API , and frontend design principles</p>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Data Analysis using Python Project for Beginners</a></h3>
-                <p>Performed exploratory data analysis on diwali sales data using Python to improve the customer experience.</p>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Power BI Sales dashboard Project for Beginners</a></h3>
-                <p>Designed a power bi dashboard for Madhav Store to track and analyze the online sales data acorss India.</p>
-              </div>
-            </div>
-          </div> -->
         </div>
-	<br>
-		<!-- added justify-content-center to center align the last two projects -->
-		<!-- <div class="row d-flex justify-content-center">  
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main">Sales Forecast- Time Series Forecasting</a></h3>
-				  <p>Used multiple machine learning models to forecast sales (retail store) and performed time series analysis.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">Customer Segmentation using clustering model</a></h3>
-				  <p>Developed a ML model to give various recommendations of financial products &amp; services on target customer groups.</p>
-				</div>
-			  </div>
-			</div>
-		 </div> -->
-	  </div>
-    </section>
+
+        <!-- ===================== Whiteboard ===================== -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-11">
+                <div class="row align-items-center">
+
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <a href="https://harshbhatter.github.io/whiteboard/"
+                           class="block-20 zoom-effect"
+                           style="background-image: url('images/Gemini_Generated_Image_mwc0homwc0homwc0.png'); height:280px; border-radius:10px;">
+                        </a>
+                    </div>
+
+                    <div class="col-md-8">
+                        <h3 class="heading">
+                            <a href="https://harshbhatter.github.io/whiteboard/">
+                                Whiteboard Application
+                            </a>
+                        </h3>
+
+                        <div class="text mt-3">
+
+                            <p>
+                                • Designed, built, and tested a fully functional whiteboard application
+                                featuring pencil, eraser, sticky notes, image insertion,
+                                and board download functionality.
+                            </p>
+
+                            <p>
+                                • Implemented undo-redo functionality using stack-based arrays to
+                                efficiently track drawing operations.
+                            </p>
+
+                            <p>
+                                • Gained hands-on experience with HTML Canvas API,
+                                DOM manipulation, event handling,
+                                and responsive frontend design.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 	<!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter"> -->
       <!-- <div class="container">
